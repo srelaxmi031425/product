@@ -3,7 +3,12 @@ import NavBar from './NavBar'
 
 const ViewProduct = () => {
   return (
-    <div>
+     <div style={{
+            backgroundImage: "url('https://st3.depositphotos.com/6171310/37268/v/450/depositphotos_372684956-stock-illustration-beautiful-wallpaper-splash-watercolor-multicolor.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            minHeight: "100vh"
+        }}>
         <NavBar/>
 <div className="container">
     <div className="row">
